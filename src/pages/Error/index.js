@@ -1,11 +1,11 @@
-import TemplateDefault from '../../components/TemplateBase';
+import PageDefault from '../../components/PageDefault';
 import React from 'react';
 
 function Pagina404() {
   return (
-    <TemplateDefault>
+    <PageDefault>
       404 - Pagina não existe
-    </TemplateDefault>
+    </PageDefault>
   )
 }
 

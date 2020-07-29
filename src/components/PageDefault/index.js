@@ -10,7 +10,7 @@ const Main = styled.main`
   padding: 50px 5%;
 `
 
-function TemplateDefault({children}) {
+function PageDefault({children}) {
   return (
     // fragment <> ou <React.Fragment>
     <React.Fragment>
@@ -23,4 +23,4 @@ function TemplateDefault({children}) {
   )
 }
 
-export default TemplateDefault;
+export default PageDefault;
